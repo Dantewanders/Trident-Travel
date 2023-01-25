@@ -1,0 +1,72 @@
+* {
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: blue;
+  font-size: 100px;
+  font-family: Montserrat;
+  text-align: center;
+}
+.wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: [col1-start] 40%  [col2-start] 40%  [col3-start] 20%;
+    grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+}
+.a {
+  grid-column: 1 / span 2;
+}
+.b {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+.c {
+  grid-column: 1;
+  grid-row: 2;
+}
+.d {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "logo . nav"
+    "title title title";
+}
+
+header > img {
+    grid-area: logo;
+}
+
+header > nav {
+    grid-area: nav;
+}
+header > nav a {
+margin-left: 10px;
+transition: 2s;
+}
+header > nav a:link {
+    text-decoration: none;
+}
+header > nav a:hover {
+    text-decoration: none;
+    color:blue;
+}
+header > h1{
+    grid-area:title;
+}
+input {
+    color: black;
+}
