@@ -15,6 +15,16 @@
     font-style:italic;
     text-align: center;
   }
+
+  h2 {
+      color: rgb(131, 129, 115);
+      font-size: 20px;
+      font-style:italic;
+      text-align: center;
+      ul {
+  list-style-type: none;
+}
+  }
   nav {
     color: rgb(9, 9, 9);
     font-size:17px;
@@ -128,9 +138,14 @@
     display: flex; 
     flex-direction: column;
     align-items: center;
+    font-style:italic;
   }
   .nola{
     display: flex; 
     flex-direction: column;
     align-items: center;
+    font-style:italic;
+  }
+  li {
+    list-style-type: none;
   }
