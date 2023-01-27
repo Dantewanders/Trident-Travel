@@ -1,0 +1,165 @@
+* {
+    color: rgba(255, 255, 255, 0.63);
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /* @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;700&display=swap'); */
+  body {
+    background-color: rgb(104, 102, 101);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.7;
+    font-size: 13px;
+    }
+    nav {
+        color: rgb(9, 9, 9);
+        font-style:italic;
+        text-align: right;
+        font-size:17px;
+    }
+    header{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "logo . nav"
+        ". title .";
+        }
+
+    header > img {
+    grid-area: logo;
+    }
+    
+  header > nav {
+    grid-area: nav;
+    }
+  header > nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 2s;
+    }
+  header > nav a:link {
+    text-decoration: none;
+    }
+  header > nav a:hover {
+    text-decoration: none;
+    color:blue;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-style:normal;
+    text-align: left;
+    list-style-type: none;
+}
+  header > h1{
+    grid-area:title;
+    }
+  input {
+    color: black;
+    }
+   .trident {
+    
+    color: rgb(49, 48, 48);
+    font-size: 40px;
+    position: absolute; 
+    opacity:9; 
+    top:-20px ;
+    left:40%;
+    font-style: italic;
+    text-align: center;
+    }
+    .banner{
+    position: absolute;  
+    top:0px ;
+    left:0px;
+    }
+    .logo{
+    position: absolute;  
+    top:0px ;
+    left:0px;
+    }
+
+  .head {
+    grid-area: header;
+  }
+  .content {
+    grid-area: content;
+    margin-left: 20px;
+  }
+  .nav {
+    grid-area: nav;
+  }
+  .side {
+    grid-area: sidebar;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  .wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "content sidebar"
+      "footer .";
+  }
+  .card {
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(162, 158, 158, 0.6);
+    margin-bottom: 30px;
+    padding: 30px;
+  }
+  .card h5{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  img {
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 12px;
+  }
+  .banner, .logo {
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 0px;
+
+  }
+  .adventures{
+    text-align: left;
+    font-style:italic;
+  }
+  .gokyo{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-style:italic;
+  }
+  .finland{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-style:italic;
+  }
+  .tahoe{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-style:italic;
+  }
+  .aruba{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-style:italic;
+  }
+  li {
+    list-style-type: none;
+  }
