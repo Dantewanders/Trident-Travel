@@ -23,7 +23,7 @@
         grid-template-rows: auto auto;
         grid-template-areas:
         "logo . nav"
-        ". title .";
+        ;
         }
 
     header > img {
@@ -78,6 +78,7 @@ h2 {
     position: absolute;  
     top:0px ;
     left:0px;
+    opacity: 0.7;
     }
 
   .head {
