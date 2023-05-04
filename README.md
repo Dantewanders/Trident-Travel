@@ -6,7 +6,7 @@ This is my first HTML project for JRS Coding Bootcamp</h3>
 <h3 align="left">
 We were given the challenge of creating a travel website after a morning of HTML. </h3>
 <h3 align="left">
-The project is HTML5 basic with some forms and an introduction to CSS3.</h3>
+The project is HTML5 basic with some forms and an introduction to CSS3 & JavaScript.</h3>
 <h3 align="left">
 I created a NavBar with links to three pages, a testimonials page which utilized avatars and custom cards. I added transition colors and simple forms for subscriptions.</h3>
 
